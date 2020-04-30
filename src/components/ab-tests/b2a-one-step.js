@@ -49,7 +49,7 @@ const data = {
 
 
 function B2AOneStep({report, setSidebarNavDisplay}) {
-    
+
     const title = report.title
     const description = report.description
     const startDate = report.startDate
@@ -59,7 +59,8 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
     const dateOfStatSig = report.dateOfStatSig
 
     return (
-    <React.Fragment>
+      <div className='frameDiv'>
+
         {setSidebarNavDisplay('block')}
         <h1>{title}</h1>
         <p>{description}</p>
@@ -72,7 +73,7 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
         <h3>Statistical Significance of Test and Date</h3>
         <p>{statSig} | {dateOfStatSig}</p>
 
-        <Pie 
+        <Pie
             data={state}
             optionst={{
                 title:{
@@ -87,7 +88,7 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
             }}
         />
 
-        <Doughnut 
+        <Doughnut
             data={state}
             options={{
                 title:{
@@ -103,8 +104,8 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
         />
         <h3>Traffic per Day</h3>
         <Line data={data} />
-        
-    </React.Fragment> 
+
+    </div> 
 )};
 
 

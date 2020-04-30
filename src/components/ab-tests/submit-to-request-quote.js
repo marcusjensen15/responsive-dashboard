@@ -61,7 +61,8 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
     const dateOfStatSig = report.dateOfStatSig
 
     return (
-        <React.Fragment>
+      <div className='frameDiv'>
+
         {setSidebarNavDisplay('block')}
         <div className="report-details">
             <h1>{title}</h1>
@@ -91,7 +92,7 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
         <div className="VWO">
             <div className="line-chart">
                 <h3>V1 Control</h3>
-                <Doughnut 
+                <Doughnut
                     data={state}
                     options={{
                         title:{
@@ -109,7 +110,7 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
 
             <div className="line-chart">
                 <h3>V2 Test Variant</h3>
-                <Pie 
+                <Pie
                     data={state}
                     optionst={{
                         title:{
@@ -129,7 +130,7 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
         <div className="GA">
             <div className="line-chart">
                 <h3>GA Timeline</h3>
-                <Line 
+                <Line
                     data={data}
                     options={options}
                 />
@@ -139,7 +140,7 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
         <div className="VWO">
             <div className="line-chart">
                 <h3>V1 Control</h3>
-                <Line 
+                <Line
                     data={data}
                     options={options}
                 />
@@ -147,13 +148,13 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
 
             <div className="line-chart">
                 <h3>V2 Test Variant</h3>
-                <Line 
+                <Line
                     data={data}
                     options={options}
                 />
             </div>
         </div>
-    </React.Fragment>
+    </div>
 )};
 
 
