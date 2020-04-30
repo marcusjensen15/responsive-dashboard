@@ -1,5 +1,6 @@
 import React from 'react';
 import {Pie, Doughnut, Line } from 'react-chartjs-2'
+import { Link } from 'react-router-dom'
 
 const state = {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -105,7 +106,7 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
         <h3>Traffic per Day</h3>
         <Line data={data} />
           <div id="moblie-nav">
-            Back To Dashboard
+            <Link to='/'> Back to Dashboard</Link>
           </div>
 
     </div>
