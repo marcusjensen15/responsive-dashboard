@@ -154,6 +154,9 @@ function OneStepForm({report, setSidebarNavDisplay}) {
                 />
             </div>
         </div>
+        <div id="moblie-nav">
+          Back To Dashboard
+        </div>
     </div>
 )};
 
