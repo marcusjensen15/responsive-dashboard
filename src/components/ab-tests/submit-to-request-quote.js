@@ -1,5 +1,6 @@
 import React from 'react';
-import {Pie, Doughnut, Line } from 'react-chartjs-2'
+import {Pie, Doughnut, Line } from 'react-chartjs-2';
+import { Link } from 'react-router-dom';
 
 const state = {
     labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -154,8 +155,8 @@ function RequestAQuote({report, setSidebarNavDisplay}) {
                 />
             </div>
         </div>
-        <div id="moblie-nav">
-          Back To Dashboard
+        <div id="mobile-nav">
+          <Link id="mobile-nav-link" to='/'> Back to Dashboard</Link>
         </div>
     </div>
 )};

@@ -105,8 +105,8 @@ function B2AOneStep({report, setSidebarNavDisplay}) {
         />
         <h3>Traffic per Day</h3>
         <Line data={data} />
-          <div id="moblie-nav">
-            <Link to='/'> Back to Dashboard</Link>
+          <div id="mobile-nav">
+            <Link id="mobile-nav-link" to='/'> Back to Dashboard</Link>
           </div>
 
     </div>

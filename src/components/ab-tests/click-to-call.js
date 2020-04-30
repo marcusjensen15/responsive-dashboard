@@ -1,5 +1,6 @@
 import React from 'react';
 import {Pie, Doughnut, Line } from 'react-chartjs-2'
+import { Link } from 'react-router-dom'
 
 
 
@@ -158,8 +159,8 @@ function ClickToCall({report, setSidebarNavDisplay}) {
                 />
             </div>
         </div>
-        <div id="moblie-nav">
-          Back To Dashboard
+        <div id="mobile-nav">
+          <Link id="mobile-nav-link" to='/'> Back to Dashboard</Link>
         </div>
     </div>
 )};
