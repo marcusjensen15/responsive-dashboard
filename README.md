@@ -1,9 +1,17 @@
 # _Aflac Dashboard_
 
+## Branch Description
 
-## Description
+This branch is a combination of the FinalResponsiveStyles and majorRefactor branches. The app is fully responsive, and cross browser compatible. We have also added routing to the app.
 
-(picture of dashboard goes here)
+We did not edit the content on any of the individual report pages, and the overall design may need some adjusting. As of now, each individual report page is symmetrical and looks ok regardless of screen size.
+
+As you shrink down to mobile, all of the buttons on the splash page will fit to the screen and remain uniform. On an individual report page, each chart will re-format in a column layout. The navigation to get back to the dashboard lives at the bottom of an individual report view.
+
+Note: The "B2A One Step" report doesn't have the same data as the others. It is an incomplete report. Also, we don't have the Power BI feed for the Business reports yet. To see a working model of a report, select any of the A/B Test Reports that aren't "B2A One Step".
+
+## Screenshots
+
 
 #### _This is an application for viewing analysis reports._
 ---
@@ -58,10 +66,10 @@ Note: this will automate the creation of the splash page button, the sideNav lin
 |           |-- click-to-call.js            #
 |           |-- get-a-quote.js              #
 |           |-- one-step-form-retest.js     #           
-|           |-- submit-to-request-quote.js  # 
-|       |-- /reports/                       # 
+|           |-- submit-to-request-quote.js  #
+|       |-- /reports/                       #
 |           |-- ReportTemplate.js           # Report Template Component
-|       |-- _RequestAccessToken.js          # 
+|       |-- _RequestAccessToken.js          #
 |       |-- Card.js                         #
 |       |-- Error404.js                     #
 |       |-- GridHeading.js                  #
@@ -74,20 +82,20 @@ Note: this will automate the creation of the splash page button, the sideNav lin
 |       |-- masterBusinessReportList.js     # The array of Business Reports with details
 |       |-- reportVariables.js              # (extemporanious?)
 |   |-- /css/            
-|       |-- style.css                       # 
+|       |-- style.css                       #
 |   |-- /data/            
 |       |-- exampleToken.json               # (extemporanious?)
 |       |-- reportsList.json                # (extemporanious?)
 |   |-- /media/            
-|       |-- AB-Tests.png                    # 
-|       |-- aflaclogo.png                   # 
-|       |-- Agent.png                       # 
-|       |-- B2B.png                         # 
-|       |-- B2C.png                         # 
-|       |-- bc_duck_search.png              # 
-|       |-- navigation_arrow_left.png       # 
-|       |-- navigation_arrow_left.svg       # 
-|       |-- theoremlogo.png                 # 
+|       |-- AB-Tests.png                    #
+|       |-- aflaclogo.png                   #
+|       |-- Agent.png                       #
+|       |-- B2B.png                         #
+|       |-- B2C.png                         #
+|       |-- bc_duck_search.png              #
+|       |-- navigation_arrow_left.png       #
+|       |-- navigation_arrow_left.svg       #
+|       |-- theoremlogo.png                 #
 |   |-- /scss/  
 |       |-- _card.scss                      #  
 |       |-- _error404.scss                  #  
@@ -98,7 +106,7 @@ Note: this will automate the creation of the splash page button, the sideNav lin
 |       |-- _sidenav.scss                   #  
 |       |-- _variables.scss                 #
 |       |-- style.scss                      # Compiled scss files for css conversion
-|   |-- App.js                              # 
+|   |-- App.js                              #
 |   |-- index.js                            #
 |   |-- logo.svg                            #
 |   |-- serviceWorker.js                    #
@@ -127,7 +135,7 @@ _React_
 *The MIT License
 
 
-Copyright (c) 2020 
+Copyright (c) 2020
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
