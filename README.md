@@ -12,6 +12,15 @@ Note: The "B2A One Step" report doesn't have the same data as the others. It is 
 
 ## Screenshots
 
+![Desktop Dashboard](images/desktopDash.png)
+
+![Desktop Report](images/desktopReport.png)
+
+![Mobile Dashboard](images/mobileDash.png)
+
+![Mobile Report](images/mobileReports.png)
+
+
 
 #### _This is an application for viewing analysis reports._
 ---
