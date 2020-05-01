@@ -1,4 +1,4 @@
-# _Aflac Dashboard_
+# _Demo Dashboard_
 
 ## Branch Description
 
